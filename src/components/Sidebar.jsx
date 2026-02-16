@@ -11,7 +11,7 @@ export default function Sidebar({ isOpen, setIsOpen }) {
         <nav className="sidebar-links">
           <Link to="/" onClick={() => setIsOpen(false)}>Produtos</Link>
           <Link to="/Material" onClick={() => setIsOpen(false)}>Materiais</Link>
-          <Link to="/Dashboar" onClick={() => setIsOpen(false)}>DashBoard</Link>
+          <Link to="/Dashboard" onClick={() => setIsOpen(false)}>DashBoard</Link>
         </nav>
       </div>
     </>

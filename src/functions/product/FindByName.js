@@ -9,8 +9,9 @@ export async function FindByName (name) {
             },
 
         })
-
+        
         const dadosJson = await dados.json()
+        console.log(dadosJson)
         return dadosJson
 
     } catch (error) {

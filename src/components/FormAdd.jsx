@@ -226,10 +226,15 @@ export function FormAdd({
       name: "",
     });
 
-    const fechar = () => {
+    const limpar = () => {
         setIsFormFilterVisible(false)
         setIsTableVisible(true)
         setRefreshData(true)
+    }
+
+    const fechar = () => {
+        setIsFormFilterVisible(false)
+        setIsTableVisible(true)
     }
   
     //handlechange area-----------------------------------------
@@ -247,6 +252,7 @@ export function FormAdd({
         e.preventDefault();
         let array = []
         if (pagina === "Product") {
+            console.log('rodou')
             const result = await ApiFunctions.FindByName(formData.name)
             array.push(result)
             setArrayObj(array)
@@ -288,7 +294,7 @@ export function FormAdd({
                 marginTop: '2rem'
             }}>
             <button type="submit">Aplicar</button>
-            <button type="button" onClick={fechar}>Remover</button>
+            <button type="button" onClick={limpar}>Remover</button>
         </section>
       </form>
     );

@@ -46,7 +46,7 @@ function Product() {
         setRefreshData(false)
       }
   },[refreshData])
-
+  console.log(arrayObj)
   return (
     <>
       <Title 
