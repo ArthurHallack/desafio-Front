@@ -1,0 +1,112 @@
+.btnsList{
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+    margin-right: 0.7rem;
+    font-size: 0.9rem;
+}
+
+.Table{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #565a5c;
+    width: 100%;
+    padding: 1.2rem 1.3rem;
+    border-radius: 4px;
+    box-shadow: 0px 5px 10px 0px;
+}
+
+.Hud{
+    display: flex;
+    align-items: center;
+    background-color: #373f52;
+    height: 51px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style: none;
+}
+
+.Hud-balance{
+    width: 10rem;
+}
+
+.Hud-id{
+    width: 4rem;
+}
+
+.Hud-name{
+    display: flex;
+    width: 20rem;
+}
+
+.Hud-price{
+    display: flex;
+    width: 7rem;
+}
+
+.Hud-stock{
+    display: flex;
+    width: 10rem;
+}
+
+.Hud-type{
+    display: flex;
+    width: 10rem;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.List-Item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 36px;
+}
+
+.registration{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.registration:nth-child(odd) {
+    background-color: #c2cbd4; /* Cinza para os itens ímpares */
+  }
+  
+.registration:nth-child(even) {
+    background-color: #ffffff; /* Branco para os itens pares */
+  }
+
+.id-list-item{
+    display: flex;
+    width: 4rem;
+}
+
+.name-list-item{
+    width: 20rem;
+}
+
+.price-list-item{
+    width: 7rem;
+}
+
+.stock-list-item{
+    width: 10rem;
+}
+
+.type-list-item{
+    width: 10rem;
+}
+
+.List {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+

@@ -1,0 +1,5 @@
+export {GetByMaterial} from './GetByMaterial'
+export {GetByProduct} from './GetByProduct'
+export {Link} from './Link'
+export {DeleteProdMat} from './DeleteProdMat'
+export {GetAll} from './GetAll'

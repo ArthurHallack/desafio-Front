@@ -1,0 +1,24 @@
+#confirmContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    width: 30rem;
+    height: 10rem;
+    color: rgb(57 61 82);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+#confirmContainer button{
+    width: 6rem;
+}
+
+#confirmContainer button:hover {
+    background-color: rgb(248, 248, 248);
+    color: black;
+}

@@ -1,0 +1,28 @@
+.TitleArea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: space-between;
+    color: rgb(57 61 82);
+    width: 100%;
+}
+
+.TitleArea h1{
+    color: rgb(57 61 82);
+    margin-left: 2rem;
+}
+
+.TitleArea section{
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+
+.iconPlusTitle {
+    cursor: pointer;
+}
+
+.iconFilterTitle {
+    cursor: pointer;
+}
